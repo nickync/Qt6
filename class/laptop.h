@@ -14,6 +14,11 @@ public:
     // deconstructor, destory
     ~Laptop();
 
+    int weight;
+    QString name;
+    double asKilo();
+    void test();
+
 signals:
 };
 

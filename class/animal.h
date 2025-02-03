@@ -11,6 +11,9 @@ class Animal : public QObject
 public:
     explicit Animal(QObject *parent = nullptr);
     void speak(QString message);
+    bool isAlive(){
+        return true;
+    }
 
 // private:
 
